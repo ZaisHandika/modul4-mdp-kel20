@@ -11,8 +11,9 @@ function ProfilePages() {
   const [count, setCount] = React.useState(0)
 
   const username =
-    count % 4 === 0 ? 'ZikriFarhan' : count % 4 === 1 ? 'ZaisHandika' : count % 4 === 2 ? 'nurhaidah346' : "firman0352"
-  const max = username.length
+    count % 4 === 0 ? 'ZikriFarhan' : 
+    count % 4 === 1 ? 'ZaisHandika' : 
+    count % 4 === 2 ? 'nurhaidah346' : "firman0352"
 
   React.useEffect(() => {
     async function fetchData() {
